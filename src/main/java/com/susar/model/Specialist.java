@@ -1,4 +1,5 @@
 package com.susar.model;
+
 import javax.persistence.*;
 
 @Entity
@@ -7,21 +8,23 @@ public class Specialist {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    Long iD;
+    private Long iD;
 
     @Column(name = "specialist_name")
-    String name;
+    private String name;
 
     @Column(name = "specialist_lastname")
-    String lastName;
+    private String lastName;
 
     @Column(name = "specialist_study")
-    String study;
+    private String study;
 
     @Column(name = "specialist_country")
-    String country;
+    private String country;
 
-    public Specialist(){};
+    public Specialist() {
+    };
+
     public Specialist(Long iD, String name, String lastName, String study, String country) {
         this.iD = iD;
         this.name = name;

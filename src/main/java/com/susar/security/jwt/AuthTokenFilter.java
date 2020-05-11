@@ -7,7 +7,6 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-
 import com.susar.security.services.UserDetailsServiceImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -56,7 +55,6 @@ public class AuthTokenFilter extends OncePerRequestFilter {
         if (StringUtils.hasText(headerAuth) && headerAuth.startsWith("Bearer ")) {
             return headerAuth.substring(7, headerAuth.length());
         }
-
         return null;
     }
 }

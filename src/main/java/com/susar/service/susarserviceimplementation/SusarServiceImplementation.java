@@ -3,21 +3,25 @@ package com.susar.service.susarserviceimplementation;
 import com.susar.model.Susar;
 import com.susar.repository.SusarRepository;
 import com.susar.service.SusarService;
-import com.susar.service.dateconverter.DateConverter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
 import java.util.*;
 import java.util.stream.Collectors;
 
 @Service
 public class SusarServiceImplementation implements SusarService {
 
+    private SusarRepository susarRepository;
+
     @Autowired
-    SusarRepository susarRepository;
+    public SusarServiceImplementation(SusarRepository susarRepository) {
+        this.susarRepository = susarRepository;
+    }
 
     public Susar create(Susar susar) {
-            return susarRepository.save(susar);
-        }
+        return susarRepository.save(susar);
+    }
 
     public Susar read(Long susarId) {
 
@@ -28,7 +32,6 @@ public class SusarServiceImplementation implements SusarService {
     public void update(Long susarId, Susar susar) {
         //Save up to date susar entity in susars
         susarRepository.save(susar);
-        DateConverter dateConverter = new DateConverter();
     }
 
     public void delete(Long susarId) {
@@ -58,7 +61,7 @@ public class SusarServiceImplementation implements SusarService {
         return susars;
     }
 
-    public List<String> getTypes(){
+    public List<String> getTypes() {
         Iterable<Susar> iterable = susarRepository.findAll();
         List<Susar> susarsToFilter = new ArrayList<>();
         iterable.forEach(susarsToFilter::add);
@@ -73,7 +76,7 @@ public class SusarServiceImplementation implements SusarService {
         return noDuplicatesArrayList;
     }
 
-    public List<String> getStudies(){
+    public List<String> getStudies() {
         Iterable<Susar> iterable = susarRepository.findAll();
         List<Susar> susarsToFilter = new ArrayList<>();
         iterable.forEach(susarsToFilter::add);
@@ -88,7 +91,7 @@ public class SusarServiceImplementation implements SusarService {
         return noDuplicatesArrayList;
     }
 
-    public List<String> getCountries(){
+    public List<String> getCountries() {
         Iterable<Susar> iterable = susarRepository.findAll();
         List<Susar> susarsToFilter = new ArrayList<>();
         iterable.forEach(susarsToFilter::add);
@@ -103,7 +106,7 @@ public class SusarServiceImplementation implements SusarService {
         return noDuplicatesArrayList;
     }
 
-    public List<String> getSites(){
+    public List<String> getSites() {
         Iterable<Susar> iterable = susarRepository.findAll();
         List<Susar> susarsToFilter = new ArrayList<>();
         iterable.forEach(susarsToFilter::add);

@@ -1,4 +1,4 @@
-package com.susar.payload.request;
+package com.susar.model.payload.request;
 
 import java.util.Set;
 

@@ -1,7 +1,6 @@
 package com.susar.model;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import org.joda.time.DateTime;
 
 import javax.persistence.*;
 import java.sql.Timestamp;
@@ -12,39 +11,43 @@ public class Susar {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    Long iD;
+    private Long iD;
 
     @Column(name = "susar_study")
-    String study;
+    private String study;
 
     @Column(name = "susar_country")
-    String country;
+    private String country;
 
     @Column(name = "susar_site")
-    String site;
+    private String site;
 
     @Column(name = "susar_number")
-    int number;
+    private int number;
 
     @Column(name = "susar_type")
-    String type;
+    private String type;
 
     @Column(name = "susar_recipt_date")
     @JsonFormat
             (shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'")
-    Timestamp reciptDate;
+    private Timestamp reciptDate;
 
     @Column(name = "susar_sent_date")
     @JsonFormat
             (shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'")
-    Timestamp sentDate;
+    private Timestamp sentDate;
 
     @Column(name = "susar_aor_date")
     @JsonFormat
             (shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'")
-    Timestamp aorDate;
+    private Timestamp aorDate;
 
-    public Susar(){};
+    public Susar() {
+    }
+
+    ;
+
     public Susar(int number, String type, Timestamp reciptDate, Timestamp sentDate, Timestamp aorDate) {
         this.number = number;
         this.type = type;

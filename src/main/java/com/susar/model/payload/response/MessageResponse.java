@@ -1,4 +1,4 @@
-package com.susar.payload.response;
+package com.susar.model.payload.response;
 
 public class MessageResponse {
     private String message;

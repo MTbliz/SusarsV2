@@ -17,21 +17,24 @@ import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
-
+import org.springframework.web.servlet.config.annotation.CorsRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 
 @Configuration
 @EnableWebSecurity
-@EnableGlobalMethodSecurity(
-        // securedEnabled = true,
-        // jsr250Enabled = true,
-        prePostEnabled = true)
+
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
-    @Autowired
-    UserDetailsServiceImpl userDetailsService;
+
+    private UserDetailsServiceImpl userDetailsService;
+
+    private AuthEntryPointJwt unauthorizedHandler;
 
     @Autowired
-    private AuthEntryPointJwt unauthorizedHandler;
+    public WebSecurityConfig(UserDetailsServiceImpl userDetailsService, AuthEntryPointJwt unauthorizedHandler ){
+        this.userDetailsService = userDetailsService;
+        this.unauthorizedHandler = unauthorizedHandler;
+    }
 
     @Bean
     public AuthTokenFilter authenticationJwtTokenFilter() {
@@ -64,5 +67,16 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .anyRequest().authenticated();
 
         http.addFilterBefore(authenticationJwtTokenFilter(), UsernamePasswordAuthenticationFilter.class);
+    }
+
+    @Bean
+    public WebMvcConfigurer corsConfigurer() {
+        return new WebMvcConfigurer() {
+            @Override
+            public void addCorsMappings(CorsRegistry registry) {
+                registry.addMapping("/**").allowedOrigins("http://localhost:4200").allowedMethods("POST", "GET", "PUT", "DELETE")
+                        .exposedHeaders("Content-Disposition");
+            }
+        };
     }
 }

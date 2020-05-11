@@ -1,4 +1,4 @@
-package com.susar.payload.response;
+package com.susar.model.payload.response;
 
 import java.util.List;
 

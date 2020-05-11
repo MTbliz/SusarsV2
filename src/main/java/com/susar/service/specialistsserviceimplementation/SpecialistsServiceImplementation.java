@@ -11,9 +11,12 @@ import java.util.List;
 @Service
 public class SpecialistsServiceImplementation implements SpecialistService {
 
-    @Autowired
-    SpecialistRepository specialistRepository;
+    private SpecialistRepository specialistRepository;
 
+    @Autowired
+    private SpecialistsServiceImplementation(SpecialistRepository specialistRepository){
+        this.specialistRepository = specialistRepository;
+    }
 
     @Override
     public Specialist create(Specialist specialist) {
