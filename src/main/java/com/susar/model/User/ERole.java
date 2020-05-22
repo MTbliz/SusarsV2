@@ -1,4 +1,4 @@
-package com.susar.model;
+package com.susar.model.User;
 
 public enum ERole {
     ROLE_USER,

@@ -1,8 +1,8 @@
 package com.susar.security.services;
 
-import com.susar.model.ERole;
-import com.susar.model.Role;
-import com.susar.model.User;
+import com.susar.model.User.ERole;
+import com.susar.model.User.Role;
+import com.susar.model.User.User;
 import com.susar.repository.RoleRepository;
 import com.susar.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;

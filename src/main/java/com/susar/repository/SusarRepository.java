@@ -1,6 +1,6 @@
 package com.susar.repository;
 
-import com.susar.model.Susar;
+import com.susar.model.susar.Susar;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

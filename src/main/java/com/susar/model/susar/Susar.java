@@ -1,4 +1,4 @@
-package com.susar.model;
+package com.susar.model.susar;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 

@@ -1,4 +1,4 @@
-package com.susar.model;
+package com.susar.model.User;
 
 import javax.persistence.*;
 

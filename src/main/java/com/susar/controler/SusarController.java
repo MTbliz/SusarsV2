@@ -2,7 +2,7 @@ package com.susar.controler;
 
 import com.susar.logging.LogEnum;
 import com.susar.logging.LoggerSusar;
-import com.susar.model.Susar;
+import com.susar.model.susar.Susar;
 import com.susar.service.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

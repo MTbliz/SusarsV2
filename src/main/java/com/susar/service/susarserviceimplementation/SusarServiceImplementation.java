@@ -1,6 +1,6 @@
 package com.susar.service.susarserviceimplementation;
 
-import com.susar.model.Susar;
+import com.susar.model.susar.Susar;
 import com.susar.repository.SusarRepository;
 import com.susar.service.SusarService;
 import org.springframework.beans.factory.annotation.Autowired;

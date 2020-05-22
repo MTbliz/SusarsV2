@@ -1,36 +1,49 @@
-C:\Users\Michal Turlinski\Desktop\Moje programy\susars_v2\src\main\java\com\susar\payload\request\LoginRequest.java
-C:\Users\Michal Turlinski\Desktop\Moje programy\susars_v2\src\main\java\com\susar\payload\response\JwtResponse.java
-C:\Users\Michal Turlinski\Desktop\Moje programy\susars_v2\src\main\java\com\susar\controler\TeamControler.java
-C:\Users\Michal Turlinski\Desktop\Moje programy\susars_v2\src\main\java\com\susar\repository\SpecialistRepository.java
-C:\Users\Michal Turlinski\Desktop\Moje programy\susars_v2\src\main\java\com\susar\service\userdetailsimplementation\UserDetailsImpl.java
-C:\Users\Michal Turlinski\Desktop\Moje programy\susars_v2\src\main\java\com\susar\repository\UserRepository.java
-C:\Users\Michal Turlinski\Desktop\Moje programy\susars_v2\src\main\java\com\susar\repository\RoleRepository.java
-C:\Users\Michal Turlinski\Desktop\Moje programy\susars_v2\src\main\java\com\susar\security\jwt\AuthEntryPointJwt.java
-C:\Users\Michal Turlinski\Desktop\Moje programy\susars_v2\src\main\java\com\susar\model\Susar.java
-C:\Users\Michal Turlinski\Desktop\Moje programy\susars_v2\src\main\java\com\susar\security\WebSecurityConfig.java
-C:\Users\Michal Turlinski\Desktop\Moje programy\susars_v2\src\main\java\com\susar\controler\SusarControler.java
-C:\Users\Michal Turlinski\Desktop\Moje programy\susars_v2\src\main\java\com\susar\controler\TestController.java
-C:\Users\Michal Turlinski\Desktop\Moje programy\susars_v2\src\main\java\com\susar\security\jwt\JwtUtils.java
-C:\Users\Michal Turlinski\Desktop\Moje programy\susars_v2\src\main\java\com\susar\service\TypesView.java
-C:\Users\Michal Turlinski\Desktop\Moje programy\susars_v2\src\main\java\com\susar\repository\SusarRepository.java
-C:\Users\Michal Turlinski\Desktop\Moje programy\susars_v2\src\main\java\com\susar\util\Main.java
-C:\Users\Michal Turlinski\Desktop\Moje programy\susars_v2\src\main\java\com\susar\logging\LogEnum.java
-C:\Users\Michal Turlinski\Desktop\Moje programy\susars_v2\src\main\java\com\susar\service\dateconverter\DateConverter.java
-C:\Users\Michal Turlinski\Desktop\Moje programy\susars_v2\src\main\java\com\susar\service\SpecialistService.java
-C:\Users\Michal Turlinski\Desktop\Moje programy\susars_v2\src\main\java\com\susar\service\userdetailsimplementation\UserDetailsServiceImpl.java
-C:\Users\Michal Turlinski\Desktop\Moje programy\susars_v2\src\main\java\com\susar\service\CountriesView.java
-C:\Users\Michal Turlinski\Desktop\Moje programy\susars_v2\src\main\java\com\susar\service\SitesView.java
-C:\Users\Michal Turlinski\Desktop\Moje programy\susars_v2\src\main\java\com\susar\model\ERole.java
-C:\Users\Michal Turlinski\Desktop\Moje programy\susars_v2\src\main\java\com\susar\model\Specialist.java
-C:\Users\Michal Turlinski\Desktop\Moje programy\susars_v2\src\main\java\com\susar\security\jwt\AuthTokenFilter.java
-C:\Users\Michal Turlinski\Desktop\Moje programy\susars_v2\src\main\java\com\susar\service\SusarService.java
-C:\Users\Michal Turlinski\Desktop\Moje programy\susars_v2\src\main\java\com\susar\StartApplication.java
-C:\Users\Michal Turlinski\Desktop\Moje programy\susars_v2\src\main\java\com\susar\controler\AuthController.java
-C:\Users\Michal Turlinski\Desktop\Moje programy\susars_v2\src\main\java\com\susar\model\Role.java
-C:\Users\Michal Turlinski\Desktop\Moje programy\susars_v2\src\main\java\com\susar\model\User.java
-C:\Users\Michal Turlinski\Desktop\Moje programy\susars_v2\src\main\java\com\susar\service\StudiesView.java
-C:\Users\Michal Turlinski\Desktop\Moje programy\susars_v2\src\main\java\com\susar\payload\request\SignupRequest.java
-C:\Users\Michal Turlinski\Desktop\Moje programy\susars_v2\src\main\java\com\susar\logging\LoggerSusar.java
-C:\Users\Michal Turlinski\Desktop\Moje programy\susars_v2\src\main\java\com\susar\payload\response\MessageResponse.java
-C:\Users\Michal Turlinski\Desktop\Moje programy\susars_v2\src\main\java\com\susar\service\specialistsserviceimplementation\SpecialistsServiceImplementation.java
-C:\Users\Michal Turlinski\Desktop\Moje programy\susars_v2\src\main\java\com\susar\service\susarserviceimplementation\SusarServiceImplementation.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\service\StudiesView.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\model\payload\request\SignupRequest.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\model\FileDbNotFoundException.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\repository\RoleRepository.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\logging\LoggerSusar.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\security\services\UserDetailsServiceImpl.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\service\specialistsserviceimplementation\SpecialistsServiceImplementation.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\security\jwt\JwtUtils.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\service\susarserviceimplementation\SusarServiceImplementation.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\model\payload\request\LoginRequest.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\repository\SusarRepository.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\model\payload\response\FileDbResponse.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\model\Training.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\service\TypesView.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\model\User.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\model\Specialist.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\model\TrainingNotFoundException.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\model\TrainingWithMultipartFile.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\model\Role.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\repository\SpecialistRepository.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\logging\LogEnum.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\security\jwt\AuthTokenFilter.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\model\payload\response\MessageResponse.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\service\SitesView.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\model\ERole.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\service\SpecialistService.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\controler\TestController.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\service\CountriesView.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\repository\TrainingRepository.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\security\services\RegisterService.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\repository\FileDbRepository.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\service\trainingserviceimplementation\TrainingServiceImplementation.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\model\Susar.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\model\FileDb.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\model\payload\response\JwtResponse.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\security\services\RegisterServiceImplementation.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\security\services\UserDetailsImpl.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\StartApplication.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\service\TrainingService.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\security\services\RegisterServiceValidator.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\repository\UserRepository.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\service\SusarService.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\controler\AuthController.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\controler\TeamController.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\controler\SusarController.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\model\FileDbStorageException.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\security\jwt\AuthEntryPointJwt.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\security\WebSecurityConfig.java
+A:\Programowanie\SusarApplication\JavaPart\SusarsV2\src\main\java\com\susar\controler\TrainingController.java

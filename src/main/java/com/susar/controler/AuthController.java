@@ -3,7 +3,7 @@ package com.susar.controler;
 import java.util.Set;
 import javax.validation.Valid;
 
-import com.susar.model.User;
+import com.susar.model.User.User;
 import com.susar.model.payload.request.LoginRequest;
 import com.susar.model.payload.request.SignupRequest;
 import com.susar.model.payload.response.JwtResponse;

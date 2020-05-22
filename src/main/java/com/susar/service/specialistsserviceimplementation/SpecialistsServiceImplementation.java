@@ -1,6 +1,6 @@
 package com.susar.service.specialistsserviceimplementation;
 
-import com.susar.model.Specialist;
+import com.susar.model.specialist.Specialist;
 import com.susar.repository.SpecialistRepository;
 import com.susar.service.SpecialistService;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package com.susar.model;
+package com.susar.model.specialist;
 
 import javax.persistence.*;
 

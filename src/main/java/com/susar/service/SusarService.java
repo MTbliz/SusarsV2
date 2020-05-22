@@ -1,6 +1,6 @@
 package com.susar.service;
 
-import com.susar.model.Susar;
+import com.susar.model.susar.Susar;
 import java.util.List;
 
 public interface SusarService {

@@ -1,6 +1,6 @@
 package com.susar.security.services;
 
-import com.susar.model.User;
+import com.susar.model.User.User;
 import com.susar.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;

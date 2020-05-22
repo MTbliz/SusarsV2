@@ -3,7 +3,7 @@ package com.susar.controler;
 
 import com.susar.logging.LogEnum;
 import com.susar.logging.LoggerSusar;
-import com.susar.model.Specialist;
+import com.susar.model.specialist.Specialist;
 import com.susar.service.SpecialistService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

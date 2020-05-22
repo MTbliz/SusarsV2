@@ -1,6 +1,6 @@
 package com.susar.service;
 
-import com.susar.model.Specialist;
+import com.susar.model.specialist.Specialist;
 
 import java.util.List;
 

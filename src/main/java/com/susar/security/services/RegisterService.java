@@ -1,6 +1,6 @@
 package com.susar.security.services;
 
-import com.susar.model.User;
+import com.susar.model.User.User;
 import com.susar.model.payload.response.JwtResponse;
 import com.susar.model.payload.response.MessageResponse;
 import org.springframework.http.ResponseEntity;
